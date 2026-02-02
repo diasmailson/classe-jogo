@@ -20,3 +20,6 @@ class Hero {
     console.log(`O ${this.tipo} atacou ${ataque}`);
   }
 }
+
+let hero = new Hero("Shaolin", 88, "monge");
+hero.Atacar();
